@@ -5,6 +5,9 @@ class PagesController < ApplicationController
   def about
   end
 
+  def test	
+  end
+
   def foo
   	@greg = "Greg"
   end
