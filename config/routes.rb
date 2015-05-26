@@ -16,6 +16,8 @@ Rails.application.routes.draw do
 
   get 'about' => "pages#about"
   get 'test' => "pages#test"
+  get 'login' => "dropbox#provision"
+  get 'dropbox' => 'dropbox#oauth'
 
   # Example of regular route:
   get 'products' => 'pages#foo'
